@@ -1,0 +1,65 @@
+body {
+    background-color: midnightblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.main{
+     margin: 50px 50px 10px 50px;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    border: 5px solid white;
+}
+
+footer {
+    background-color: skyblue;
+    text-align: center;
+    clear: both;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.finest {
+    color: seagreen;
+}
+
+.box {
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+.first {
+    float: left;
+}
+
+.second {
+    float: right;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .box {
+        width: 100%;
+        display: block;
+        text-align: justify;
+
+    }
+}
